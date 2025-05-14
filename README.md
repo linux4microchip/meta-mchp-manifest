@@ -29,4 +29,4 @@ $ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b scar
 $ repo sync
 ```
 
-For instructions on how to setup and build the Microchip Yocto BSP please refer to the [Microchip Yocto BSP README](https://github.com/linux4microchip/meta-mchp/meta-mchp-common/README.md).
+For instructions on how to setup and build the Microchip Yocto BSP please refer to the [Microchip Yocto BSP README](https://github.com/linux4microchip/meta-mchp/blob/scarthgap/meta-mchp-common/README.md).
