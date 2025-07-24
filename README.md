@@ -25,7 +25,7 @@ $ repo sync
 
 ```bash
 $ mkdir yocto-dev && cd yocto-dev
-$ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b scarthgap -m mpu/default.xml
+$ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b refs/tags/linux4microchip-2025.04 -m mpu/default.xml
 $ repo sync
 ```
 
