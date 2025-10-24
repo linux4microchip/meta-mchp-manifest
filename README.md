@@ -29,4 +29,12 @@ $ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b refs
 $ repo sync
 ```
 
+## Download the PIC64GX Manifest
+
+```bash
+$ mkdir yocto-dev && cd yocto-dev
+$ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b scarthgap -m pic64/pic64gx/default.xml
+$ repo sync
+```
+
 For instructions on how to setup and build the Microchip Yocto BSP please refer to the [Microchip Yocto BSP README](https://github.com/linux4microchip/meta-mchp/blob/scarthgap/meta-mchp-common/README.md).
