@@ -17,7 +17,7 @@ $ PATH=${PATH}:~/bin
 
 ```bash
 $ mkdir yocto-dev && cd yocto-dev
-$ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b refs/tags/linux4microchip+fpga-2025.07 -m polarfire-soc/default.xml
+$ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b refs/tags/linux4microchip+fpga-2025.10 -m polarfire-soc/default.xml
 $ repo sync
 ```
 
@@ -33,7 +33,7 @@ $ repo sync
 
 ```bash
 $ mkdir yocto-dev && cd yocto-dev
-$ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b scarthgap -m pic64/pic64gx/default.xml
+$ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b refs/tags/linux4microchip+fpga-2025.10 -m pic64/pic64gx/default.xml
 $ repo sync
 ```
 
