@@ -4,10 +4,10 @@
   <remote name="meta-mchp" fetch="https://github.com/linux4microchip/" />
   <remote name="yoctoproject" fetch="https://git.yoctoproject.org/" />
 
-  <project name="meta-mchp" remote="meta-mchp" path="meta-mchp" revision="0408edc7519e919fb2cb209c06d10113346d8004" />
-  <project name="openembedded-core" remote="openembedded" path="openembedded-core" revision="04038ecd1edd6592b826665a2b787387bb7074fa" />
-  <project name="bitbake" remote="openembedded" path="bitbake" revision="696c2c1ef095f8b11c7d2eff36fae50f58c62e5e" />
-  <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="491671faee11ea131feab5a3a451d1a01deb2ab1" />
-  <project name="meta-zephyr" remote="yoctoproject" path="meta-zephyr"  revision="763c72fc3088fc09ccfde6edfcdad43811d16616" />
+  <project name="meta-mchp" remote="meta-mchp" path="meta-mchp" revision="scarthgap" />
+  <project name="openembedded-core" remote="openembedded" path="openembedded-core" revision="6988157ad983978ffd6b12bcefedd4deaffdbbd1" />
+  <project name="bitbake" remote="openembedded" path="bitbake" revision="8dcf084522b9c66a6639b5f117f554fde9b6b45a" />
+  <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="ec0469748be4159fb83fb0fa0148d786484c88cf" />
+  <project name="meta-zephyr" remote="yoctoproject" path="meta-zephyr"  revision="1f08e19450aa3051d626d21d892a0464a21b15ae" />
 
 </manifest>
