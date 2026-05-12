@@ -13,11 +13,22 @@ $ chmod a+x ~/bin/repo
 $ PATH=${PATH}:~/bin
 ```
 
+## Choosing a Branch or Release Tag
+
+Replace `<branch-or-tag>` in the commands below with:
+
+- **Branch:** `-b <branch-name>` (example: `-b scarthgap`)
+- **Tag:** `-b refs/tags/<tag-name>` (example: `-b refs/tags/linux4microchip-2026.04`)
+
+**Tags require the `refs/tags/` prefix!** Using `-b linux4microchip-2026.04` will fail.
+
+[Available release tags](https://github.com/linux4microchip/meta-mchp-manifest/tags)
+
 ## Download the Microchip PolarFire SoC Manifest
 
 ```bash
 $ mkdir yocto-dev && cd yocto-dev
-$ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b refs/tags/linux4microchip+fpga-2025.10 -m polarfire-soc/default.xml
+$ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b <branch-or-tag> -m polarfire-soc/default.xml
 $ repo sync
 ```
 
@@ -25,7 +36,7 @@ $ repo sync
 
 ```bash
 $ mkdir yocto-dev && cd yocto-dev
-$ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b refs/tags/linux4microchip-2025.10 -m mpu/default.xml
+$ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b <branch-or-tag> -m mpu/default.xml
 $ repo sync
 ```
 
@@ -33,7 +44,7 @@ $ repo sync
 
 ```bash
 $ mkdir yocto-dev && cd yocto-dev
-$ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b refs/tags/linux4microchip+fpga-2025.10 -m pic64/pic64gx/default.xml
+$ repo init -u https://github.com/linux4microchip/meta-mchp-manifest.git -b <branch-or-tag> -m pic64/pic64gx/default.xml
 $ repo sync
 ```
 
