@@ -5,7 +5,7 @@
   <remote name="yoctoproject" fetch="https://git.yoctoproject.org/" />
 
   <project name="meta-mchp" remote="meta-mchp" path="meta-mchp" revision="scarthgap" />
-  <project name="openembedded-core" remote="openembedded" path="openembedded-core" revision="6988157ad983978ffd6b12bcefedd4deaffdbbd1" />
+  <project name="openembedded-core" remote="openembedded" path="openembedded-core" revision="2814f0962f56c8d1afa4de76d2895ba9b5cb767d" />
   <project name="bitbake" remote="openembedded" path="bitbake" revision="8dcf084522b9c66a6639b5f117f554fde9b6b45a" />
   <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="ec0469748be4159fb83fb0fa0148d786484c88cf" />
   <project name="meta-zephyr" remote="yoctoproject" path="meta-zephyr"  revision="1f08e19450aa3051d626d21d892a0464a21b15ae" />
