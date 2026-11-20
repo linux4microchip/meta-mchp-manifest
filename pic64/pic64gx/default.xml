@@ -9,5 +9,6 @@
   <project name="bitbake" remote="openembedded" path="bitbake" revision="33581c84f3a85008239acbd940501a35de48dc91" />
   <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="420222862f5a6d95023b8f5f3b7e1808b2264ef9" />
   <project name="meta-zephyr" remote="yoctoproject" path="meta-zephyr"  revision="ec31a030bd69b5ef3a947a3fc390e7745bd06038" />
+  <project name="meta-security" remote="yoctoproject" path="meta-security" revision="c0d1d6200e7a84c39fb940cb1f22aad4b0b3d808" />
 
 </manifest>
